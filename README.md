@@ -112,3 +112,11 @@ Hacker's machine should be listening to the port 8080. To do that runs the follo
 * -vv = it means verbose standard output.
 * -p = port
 * -l = listen
+
+# Quotes
+
+> hacking is more about following the law than breaking it.
+>
+> The essence of hacking is finding unintended or overlooked uses for the
+> laws and properties of a given situation and then applying them in new and
+> inventive ways to solve a problem.
